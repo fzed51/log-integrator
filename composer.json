@@ -1,23 +1,40 @@
 {
-  "name": "fzed51/log-integrator",
-  "description": "outil d'integration de log dans une base de donnee",
-  "minimum-stability": "stable",
-  "license": "proprietary",
   "authors": [
     {
       "name": "fzed5",
       "email": "email@example.com"
     }
   ],
+  "description": "outil d'integration de log dans une base de donnee",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "name": "fzed51/log-integrator",
+  "config": {
+    "sort-packages": true
+  },
   "require": {
     "php": ">=7.4",
     "fzed51/pdo-helper": "^v1.5.1",
-    "fzed51/migration": "^v1.4.5"
+    "fzed51/migration": "^v1.4.5",
+    "slim/slim": "^3.12.3",
+    "monolog/monolog": "^2.3"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "phpunit/phpunit": "^9.5",
     "squizlabs/php_codesniffer": "^3.6",
     "phpstan/phpstan": "^0.12.94",
     "ocramius/package-versions": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Api\\": "./src/Api"
+    }
+  },
+  "autoload-Dev": {
+    "psr-4": {
+      "Api\\": "./test/Api",
+      "Test\\": "./test"
+    }
   }
 }
