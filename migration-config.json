@@ -1,0 +1,7 @@
+{
+    "migration_directory": "./db/migrations",
+    "config_intern": {
+        "provider": "sqlite",
+        "name": "./db/data.sqlite"
+    }
+}
