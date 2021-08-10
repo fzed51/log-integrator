@@ -8,5 +8,7 @@ Thumbs.db
 /vendor
 
 ### PROJECT
+/logs/*
+!/logs/.empty
 .phpunit.result.cache
 .phpunit.cache
