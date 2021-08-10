@@ -1,0 +1,12 @@
+### OS
+Thumbs.db
+
+### IDE
+/.idea
+
+### COMPOSER
+/vendor
+
+### PROJECT
+.phpunit.result.cache
+.phpunit.cache
