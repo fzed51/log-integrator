@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Api\\": "./src/Api"
+      "Integrator\\": "src/Integrator"
     }
   },
   "autoload-Dev": {
     "psr-4": {
-      "Api\\": "./test/Api",
+      "Integrator\\": "./test/Api",
       "Test\\": "./test"
     }
   }
