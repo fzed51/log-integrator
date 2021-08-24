@@ -14,10 +14,11 @@
   },
   "require": {
     "php": ">=7.4",
+    "ext-json": "*",
+    "fzed51/migration": "^1.4",
     "fzed51/pdo-helper": "^v1.5.1",
-    "fzed51/migration": "^v1.4.5",
-    "slim/slim": "^3.12.3",
-    "monolog/monolog": "^2.3"
+    "monolog/monolog": "^2.3",
+    "slim/slim": "^3.12.3"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
