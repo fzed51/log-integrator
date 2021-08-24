@@ -12,3 +12,4 @@ Thumbs.db
 !/logs/.empty
 .phpunit.result.cache
 .phpunit.cache
+/db/data.sqlite
