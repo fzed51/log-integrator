@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace handleLogger;
+
 use Monolog\Formatter\JsonFormatter;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Logger;

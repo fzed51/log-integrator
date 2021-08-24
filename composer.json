@@ -5,7 +5,7 @@
       "email": "email@example.com"
     }
   ],
-  "description": "outil d'integration de log dans une base de donnee",
+  "description": "outil d'int\u00e9gration de log dans une base de donn\u00e9e",
   "license": "proprietary",
   "minimum-stability": "stable",
   "name": "fzed51/log-integrator",
@@ -15,21 +15,25 @@
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
+    "ext-pdo": "*",
+    "fzed51/http-exception": "^2.0",
+    "fzed51/instance-resolver": "^1.4",
     "fzed51/migration": "^1.4",
     "fzed51/pdo-helper": "^v1.5.1",
     "monolog/monolog": "^2.3",
     "slim/slim": "^3.12.3"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-latest",
-    "phpunit/phpunit": "^9.5",
-    "squizlabs/php_codesniffer": "^3.6",
+    "fzaninotto/faker": "^1.9",
+    "ocramius/package-versions": "^2.1",
     "phpstan/phpstan": "^0.12.94",
-    "ocramius/package-versions": "^2.1"
+    "phpunit/phpunit": "^9.5",
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.6"
   },
   "autoload": {
     "psr-4": {
-      "Integrator\\": "src/Integrator"
+      "Api\\": "src/Api"
     }
   },
   "autoload-Dev": {

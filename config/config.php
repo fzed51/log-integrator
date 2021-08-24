@@ -2,8 +2,10 @@
 declare(strict_types=1);
 
 return [
-    "log" => [
-        "directory" => "logs",
-        "channel" => "log-integrator"
+    'mode' => 'dev', // prod |dev
+    'log' => [
+        'directory' => 'logs/at',
+        'channel' => 'log-integrator',
+        'history' => 30 // nb jours
     ]
 ];
