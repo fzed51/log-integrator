@@ -1,0 +1,1 @@
+ALTER TABLE li_logs ADD COLUMN l_channel text;
